@@ -4,7 +4,7 @@ provider "aws" {
 
 resource "aws_elasticache_subnet_group" "example" {
   name       = "example-subnet-group"
-  subnet_ids = ["subnet-96e89bda", "subnet-0ae4039f713acf2fe"] # Replace with valid subnet IDs
+  subnet_ids = ["subnet-96e89bda", "subnet-b16ce9ca"] # Replace with valid subnet IDs
 }
 
 resource "aws_elasticache_replication_group" "example" {
