@@ -21,7 +21,7 @@ resource "aws_elasticache_replication_group" "example" {
   description                = "Example Redis replication group"
   node_type                  = "cache.t3.micro"
   engine                     = "redis"
-  engine_version             = "6.2"  # Deploy Redis 6.2 first
+  engine_version             = "7.1"  # Deploy Redis 6.2 first
   port                       = 6379
   automatic_failover_enabled = true
   num_cache_clusters         = 2
