@@ -6,6 +6,9 @@ terraform {
     }
   }
 }
+provider "aws" {
+  region = "ap-south-1"
+}
 
 resource "aws_elasticache_subnet_group" "example" {
   name       = "example-subnet-group"
